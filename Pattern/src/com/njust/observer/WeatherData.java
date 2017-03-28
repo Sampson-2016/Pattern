@@ -1,4 +1,4 @@
-package edu.njust.observer;
+package com.njust.observer;
 
 import java.util.Observable; 
 /**

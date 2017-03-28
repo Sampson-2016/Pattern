@@ -1,4 +1,4 @@
-package edu.njust.observer;
+package com.njust.observer;
 
 public class WeaNode {
 	private float temperature;
