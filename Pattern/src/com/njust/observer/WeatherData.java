@@ -24,7 +24,6 @@ public class WeatherData extends Observable{
 	public void measurementsChanged(){
 		setChanged();
 		//notifyObservers();
-		
 		notifyObservers(node);
 	}
 	
@@ -59,7 +58,8 @@ public class WeatherData extends Observable{
 	
 	public static void main(String[] args) {
 		WeatherData w=new WeatherData();
+		@SuppressWarnings("unused")
 		CurrentConditionDisplay conditionDisplay=new CurrentConditionDisplay(w);
-		w.setMeasurements(30, 20, 10);;
+		w.setMeasurements(30, 20, 10);
 	}
 }
